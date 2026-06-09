@@ -8,6 +8,5 @@ int main(){
     swap(a[l], a[r]);
     l++;
     r--;
-    
    }
 }
