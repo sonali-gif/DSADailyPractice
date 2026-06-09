@@ -11,6 +11,6 @@ int main(){
         n=n/10;
         count++;
     }
-    cout<<count;
+    cout<<"total number of element"<<count;
 
 }
