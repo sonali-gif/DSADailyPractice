@@ -19,7 +19,7 @@ class person{
 class teacher:public person{
     public:
     string course;
-    teacher(string name,int age,string course):person(name,age){
+    teacher(string name,int age,string course):person(name,age){//calling parent constructor 
         this->course=course;
     }
     void displayTeacher(){

@@ -6,8 +6,6 @@ void reverseArray(int i,int arr[],int n){
     }
     swap(arr[i],arr[n-i-1]);
     reverseArray(i+1,arr,n);
-
-
 }
 int main(){
     int n;

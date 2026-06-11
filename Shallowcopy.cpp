@@ -23,7 +23,7 @@ int main(){
 student s1("sam",9.3);
 student s2(s1);
 s1.getInfo();
-*(s2.cgpaPtr)=7.9;
+*(s2.cgpaPtr)=7.9;// it will asssign to s1 cgpa also because of shallow copy
 s1.getInfo();
 return 0;
 }

@@ -10,13 +10,11 @@ int sumNum(int a,int b,int c){
 }
 };
 
-
 int main(){
     A obj;
 
-   cout<<obj.sumNum(5,6);
+   cout<<obj.sumNum(5,6)<<endl;
    
-   int t = obj.sumNum(4,5,6);
-   cout<<t<<endl;
+   cout<<obj.sumNum(4,5,6);
    return 0;
 }

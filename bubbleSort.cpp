@@ -10,7 +10,7 @@ void BubbleSort(int arr[],int n){
             }
         }
         if(didswap==0){
-            break;//for best time complexity O(n)
+            break;//for best time complexity O
         }
     }
 }

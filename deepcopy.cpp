@@ -12,7 +12,7 @@ class student{
     }
     student(student &obj){
         this->name=obj.name;
-        cgpaPtr =new double;
+        cgpaPtr =new double;// deep copy
         *cgpaPtr =*obj.cgpaPtr;
     }
     void getInfo(){

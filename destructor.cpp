@@ -13,6 +13,7 @@ class student{
     //destrcutor
     ~student(){
         cout<<" delete"; 
+        delete cgpaPtr;//it delete dynamic alloacted memory
     }
     void getInfo(){
         cout<<"name:"<<name<<endl;
