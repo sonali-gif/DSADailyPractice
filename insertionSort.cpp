@@ -6,9 +6,7 @@ void InsertionSort(int arr[],int n){
        while(j>0&&arr[j-1]>arr[j]){
         swap(arr[j-1],arr[j]);
         j--;
-       }
-       
-    
+       } 
     }
 }
 int main(){
