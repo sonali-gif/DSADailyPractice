@@ -23,6 +23,6 @@ using namespace std;
     for (int i=0;i<n;i++){
         cin>>arr[i];
     }
-    cout<<"second largest number is; "<<secondLargest(arr,n);
+    cout<<"2nd largest number is; "<<secondLargest(arr,n);
     return 0;
  }
