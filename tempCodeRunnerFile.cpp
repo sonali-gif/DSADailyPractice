@@ -1,1 +1,2 @@
- // cout<<arr[i]<<" ";
+ if(ssmall == INT_MAX)
+        return -1;
