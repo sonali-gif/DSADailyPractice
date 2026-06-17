@@ -2,7 +2,7 @@
 using namespace std;
 #include <bits/stdc++.h>
 using namespace std;
-
+//brute force
 vector<int> intersection(vector<int>& arr1, vector<int>& arr2) {
     int n1 = arr1.size();
     int n2 = arr2.size();
@@ -18,11 +18,9 @@ vector<int> intersection(vector<int>& arr1, vector<int>& arr2) {
                 visited[j] = 1;
                 break;
             }
-
             if (arr2[j] > arr1[i]) break;
         }
     }
-
     return ans;
 }
 
