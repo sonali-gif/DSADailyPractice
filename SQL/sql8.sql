@@ -95,4 +95,30 @@ select * from s1 as a
  join course as b
 on a.student_id=b.student_id;
 
+select avg(marks) from student;
 
+-- subqueries
+select marks from student 
+where marks >(
+select avg(marks) from student);
+
+select * from student;
+alter table student
+change f_name name varchar(90);
+
+
+select name,roll from student 
+where roll in
+(select roll from student
+where roll  % 2=0);
+
+-- using subqueries using from 
+select max(marks) from(
+select * from student
+where city ="delhi")as te;
+
+-- view
+create view v1 as 
+select name ,city from student;
+
+select * from v1;
