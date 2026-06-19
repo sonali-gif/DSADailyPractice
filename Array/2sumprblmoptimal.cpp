@@ -5,6 +5,7 @@ using namespace std;
 bool TwoSum(int arr[],int n,int target){
     int l =0;
     int r = n-1;
+    sort(arr,arr-n);
     while(l<r){
         int sum=arr[l]+arr[r];
         if(sum==target){
