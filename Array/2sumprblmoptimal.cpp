@@ -3,9 +3,10 @@ using namespace std;
 //optimal approach if we have to tell sum exiist or not , not optimal if we want to tell index
 // we will use 2 pointer approach
 bool TwoSum(int arr[],int n,int target){
+    sort(arr,arr+n);
     int l =0;
     int r = n-1;
-    sort(arr,arr-n);
+    
     while(l<r){
         int sum=arr[l]+arr[r];
         if(sum==target){
@@ -14,7 +15,7 @@ bool TwoSum(int arr[],int n,int target){
             l++;
         }
         else{
-            r++;
+            r--;
         }
     }
     return 0;
