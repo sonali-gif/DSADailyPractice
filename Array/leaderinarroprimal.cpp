@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-//optimal
+//optimal TC-O(N) 
 void leader(int arr[],int n){
-    
     int maxi=INT_MIN;
     for(int i=n-1;i>=0;i--){
        if(arr[i]>maxi){
