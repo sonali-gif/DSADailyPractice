@@ -11,8 +11,10 @@ void leader(int arr[],int n){
     }
 }
 int main(){
+    
     int n=6;
     int arr[n]={10,22,12,3,0,6};
     leader(arr,n);
     return 0; 
 }
+
