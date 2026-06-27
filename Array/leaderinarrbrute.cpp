@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//brute force with TC -O(N^2)
 void leader(int arr[],int n){
     for(int i=0;i<n;i++){
         bool leader=true;

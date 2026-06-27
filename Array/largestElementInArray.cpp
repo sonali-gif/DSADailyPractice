@@ -18,6 +18,6 @@ int main(){
      for(int i=0;i<=n-1;i++){
         cin>>arr[i];
      }
-     cout<<"largest element"<<LargetsElement(arr,n);
+     cout<<"largest element: "<<LargetsElement(arr,n);
      return 0;
 }

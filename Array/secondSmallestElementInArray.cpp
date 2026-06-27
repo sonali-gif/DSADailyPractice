@@ -3,7 +3,6 @@ using namespace std;
 int secondSmallest(vector<int> &arr, int n) {
     int small = arr[0];
     int ssmall = INT_MAX;
-
     for(int i = 1; i < n; i++) {
         if(arr[i] < small) {
             ssmall = small;

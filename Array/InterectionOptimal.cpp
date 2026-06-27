@@ -22,7 +22,6 @@ vector<int> intersectionArray(vector<int>& arr1, vector<int>& arr2) {
             j++;
         }
     }
-
     return ans;
 }
 int main() {

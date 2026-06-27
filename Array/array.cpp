@@ -14,5 +14,7 @@ int main(){
     for(int i=0;i<n-1;i++){
         cout<<arr[i]<<" ";
     }
+    //accessing single element
     cout<<arr[2];
+
 }

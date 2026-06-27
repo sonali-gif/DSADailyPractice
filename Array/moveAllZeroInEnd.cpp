@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//brute-force approach
 void moveZero(vector<int> &arr,int n){
     vector<int> temp;
     //this loop will add non zero element in temp from arr

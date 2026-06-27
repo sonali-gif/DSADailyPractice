@@ -16,7 +16,7 @@ bool TwoSum(int arr[],int n,int target){
         }
         else{
             r--;
-        }
+        }2qazz
     }
     return 0;
 }

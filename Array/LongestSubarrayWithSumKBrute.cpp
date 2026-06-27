@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//brute force
 int longestSubarray(int arr[],int n,int k){
     int maxLen=0;
     for(int i=0;i<n;i++){
