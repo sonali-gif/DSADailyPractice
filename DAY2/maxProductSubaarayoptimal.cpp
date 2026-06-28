@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-//
+//optimal approach 
+//time comp -O(N),space -O(1)
 int productsubarry(int arr[],int n){
     int minp =arr[0],maxp =arr[0],ans =arr[0];
     for(int i=1;i<n;i++){
