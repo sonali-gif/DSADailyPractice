@@ -21,7 +21,7 @@ int longestSubsutringUniop(int n, string s){
     unordered_map<char,int>freq;
     for(int r=0;r<n;r++){
         freq[s[l]]++;
-        if( freq[s[l]]>1){
+        while( freq[s[r]]>1){
              freq[s[l]]--;
              l++;
         }
