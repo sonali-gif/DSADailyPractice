@@ -1,7 +1,7 @@
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
-        //brute force
+        //boptimal approach
         int n=nums.size();
         int ans=0,l=0,zero=0;
         for(int r=0;r<n;r++){
