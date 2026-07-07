@@ -6,48 +6,50 @@
 // If all the inputs are even in number, display the message "All are even".
 #include<bits/stdc++.h>
 using namespace std;
-// int main(){
-//     int n;
-//     cin>>n;
-// //we can take array as well
-//     vector<char>v(n);
-//     for(int i=0;i<n;i++){
-//         cin>>v[i];
-//     }
-//    //it will count freq of char
-//     unordered_map<char,int>mp;
-//     for(char ch:v){
-//         mp[ch]++;
-//     }
-//     bool found =false;
-//     //traverse vector
-//     for(char ch:v){
-//         if(mp[ch]%2!=0){
-//             cout<<ch;
-//             found=true;
-//             break;
-//         }
-//     }
-//     if(!found){
-//         cout<<"all even";
-//     }
-//     //print char with freq ex a-2,b-1 etc
-//     // for(auto it:mp){
-//     //     cout<<it.first<<" "<<it.second<<endl;
-//     // }
-//     return 0;
-// }
 int main(){
     int n;
     cin>>n;
-    char arr[n];
+//we can take array as well
+    vector<char>v(n);
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+        cin>>v[i];
     }
-    char ans;
-    for(int i=0;i<n;i++){
-        ans=ans^arr[i];
+   //it will count freq of char
+    unordered_map<char,int>mp;
+    for(char ch:v){
+        mp[ch]++;
     }
-    cout<<ans;
+    bool found =false;
+    //traverse vector
+    for(char ch:v){
+        if(mp[ch]%2!=0){
+            cout<<ch;
+            found=true;
+            break;
+        }
+    }
+    if(!found){
+        cout<<"all even";
+    }
+    //print char with freq ex a-2,b-1 etc
+    // for(auto it:mp){
+    //     cout<<it.first<<" "<<it.second<<endl;
+    // }
     return 0;
 }
+// // we will use this xor method when we know tht only one char is even n all or odd /// or only one is odd all r even so xor will cut all char n give special one element
+
+// int main(){
+//     int n;
+//     cin>>n;
+//     char arr[n];
+//     for(int i=0;i<n;i++){
+//         cin>>arr[i];
+//     }
+//     char ans;
+//     for(int i=0;i<n;i++){
+//         ans=ans^arr[i];
+//     }
+//     cout<<ans;
+//     return 0;
+// }

@@ -3,6 +3,7 @@
 // The task is to find the empty packets(0) of chocolate and push it to the end of the conveyor belt(array).
 #include<bits/stdc++.h>
 using namespace std;
+//optimal using two pointer
 vector<int> movezero(vector<int>arr){
     int j=0;
     for(int i=0;i<arr.size();i++){

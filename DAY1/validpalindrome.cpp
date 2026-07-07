@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool palindrome(string s,int n){
+    //optimal approach we use 2 pointer approach
+    //time comp-O(N), space-O(1)
     int l=0,r=n-1;
     while(l<r){
         while(l<r && !isalnum(s[l])){

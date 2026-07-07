@@ -13,6 +13,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    //dutch national flag algo
     int l=0,m=0,h=n-1;
     while(m<=h){
         if(arr[m]==0){

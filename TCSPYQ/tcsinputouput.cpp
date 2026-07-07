@@ -1,53 +1,56 @@
 #include<bits/stdc++.h>
 using namespace std;
 //when we dont know size
-// int main(){
-// vector<int>v;
-// int n;
-// while(cin>>n){
-//     v.push_back(n);
-// }
-// for(int a:v){
-//     cout<<a<<" ";
-// }
-// return 0;
-// }
+int main(){
+vector<int>v;
+int n;
+while(cin>>n){
+    v.push_back(n);
+}
+for(int a:v){
+    cout<<a<<" ";
+}
+return 0;
+}
 //taking input when we know size
 
-// int main(){
+int main(){
     
-//     int n;
-//     cin>>n;
-//     int arr[n];
-//     for(int i=0;i<n;i++){
-//         cin>>arr[i];
-//     }
-//     for(int a:arr){
-//         cout<<a<<" ";
-//     }
-//     return 0;
-// }
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    for(int a:arr){
+        cout<<a<<" ";
+    }
+    return 0;
+}
 // when we have to take space sprerated  value
-// int main(){
-//     string s;//create string to store whole input line
-//     getline(cin,s);//read entire line including space
-//     stringstream ss(s);//convert string into stream(like cin)
-//     int x;
-//     vector<int>v;
-//     while(ss>>x){//work exactly like cin>>x but input come from string
-//         v.push_back(x);
-//     }
-//     for(int a: v){
-//         cout<<a<<" ";
-//     }
-//     return 0;
-// }
-//if we want to take comma separated values
 int main(){
     string s;//create string to store whole input line
     getline(cin,s);//read entire line including space
     stringstream ss(s);//convert string into stream(like cin)
-    
+    int x;
+    vector<int>v;
+    while(ss>>x){//work exactly like cin>>x but input come from string
+        v.push_back(x);
+    }
+    for(int a: v){
+        cout<<a<<" ";
+    }
+    return 0;
+}
+//if we want to take comma separated values
+int main(){
+   
+    string s;//create string to store whole input line
+    getline(cin,s);//read entire line including space
+    stringstream ss(s);//convert string into stream(like cin)
+     if(s.front()=='[' && s.back()==']'){//if it have bracket in strt n end like[1,2,34] so we remove tht first
+        s=s.substr(1,s.length()-2);
+    }
     vector<int>v;
     string temp;
     while(getline(ss,temp,',')){

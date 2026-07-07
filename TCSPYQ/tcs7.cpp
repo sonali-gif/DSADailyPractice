@@ -9,41 +9,23 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-// int main(){
-//     //input string
-//     string s;
-//     getline(cin,s); 
-//     //count star n hash  
-//     int cntst=0;
-//     int cnthash=0;
-//     for(int i=0;i<s.length();i++) {
-//         if(s[i]=='#'){
-//             cnthash++;
-//         }else{
-//             cntst++;
-//         }
-//     }  
-//     // print (*>#): positive integer
-//     //(#>*): negative integer
-//     //(#=*): 0
-//     cout<<cntst-cnthash;
-//     return 0;              
-// }
 int main(){
-    int n;
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-    int cnt=1;
-    int maxnum=arr[0];
-    for(int i=1;i<n;i++){
-        if(arr[i]>maxnum){
-            cnt++;
-            maxnum=arr[i];
+    //input string
+    string s;
+    getline(cin,s); 
+    //count star n hash  
+    int cntst=0;
+    int cnthash=0;
+    for(int i=0;i<s.length();i++) {
+        if(s[i]=='#'){
+            cnthash++;
+        }else{
+            cntst++;
         }
-    }
-    cout<<cnt;
-    return 0;
+    }  
+    // print (*>#): positive integer
+    //(#>*): negative integer
+    //(#=*): 0
+    cout<<cntst-cnthash;
+    return 0;              
 }
