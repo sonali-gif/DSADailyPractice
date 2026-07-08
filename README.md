@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
+| [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 ## String
 |  |
 | ------- |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
@@ -32,4 +34,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
+## Two Pointers
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
