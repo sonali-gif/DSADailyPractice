@@ -12,8 +12,8 @@ int main(){
         cin>>arr[i];
     }
     //logic
-    int largest =arr[0],secLar=-1;
-    for(int i=0;i<n;i++){
+    int largest =arr[0],secLar=INT_MIN;
+    for(int i=1;i<n;i++){
         if(arr[i]>largest){
             secLar=largest;
             largest=arr[i];
@@ -21,6 +21,10 @@ int main(){
         secLar=arr[i];
     }
     }
-    //retruning second largest 
-    cout<< secLar;
+    if(secLar==INT_MIN){
+        cout<<"second largest doesn't exist";
+    }else{
+        cout<< secLar;
+    }
+    return 0;
 }
