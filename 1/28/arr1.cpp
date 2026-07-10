@@ -1,6 +1,9 @@
+// Given an array of integers, find the second largest element without sorting.
+//time complexity of this will be O(Ng)
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //taking i/p
     int n;
     cout<<"size of arr: ";
     cin>>n;
@@ -8,7 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-
+    //logic
     int largest =arr[0],secLar=-1;
     for(int i=0;i<n;i++){
         if(arr[i]>largest){
@@ -18,5 +21,6 @@ int main(){
         secLar=arr[i];
     }
     }
+    //retruning second largest 
     cout<< secLar;
 }
