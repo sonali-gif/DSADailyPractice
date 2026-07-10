@@ -11,26 +11,26 @@
 // Output:3 -> Row 3 has maximum number of 1's 
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
-    int r,c;
-    cin>>r>>c;
-    int arr[r][c];
-    int maxone=-1;  //index
-    int maxi=0;
-    //input for 2d arr n checking num of zero
-    for(int i=0;i<r;i++){
-        int cnt=0;
-        for(int j=0;j<c;j++){
-            cin>>arr[i][j];
-            if(arr[i][j]==1){
+
+int main() {
+    int r, c;
+    cin >> r >> c;
+    int maxone = 0;   // row index
+    int maxi = -1;    // maximum number of 1s
+    for(int i = 0; i < r; i++) {
+        int cnt = 0;
+        for(int j = 0; j < c; j++) {
+            int x;
+            cin >> x;
+            if(x == 1)
                 cnt++;
-            }
         }
-        if(maxi<cnt){
-            maxi=cnt;
-            maxone=i;
+        if(cnt > maxi) {
+            maxi = cnt;
+            maxone = i;
         }
     }
-    cout<<maxone+1<<endl;
+    cout << maxone + 1;
+
     return 0;
-}
+}   
