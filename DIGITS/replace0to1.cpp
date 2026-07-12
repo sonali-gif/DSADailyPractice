@@ -1,6 +1,8 @@
+//replace all 0's to 1's
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(d)
     int n;
     cin>>n;
     int ans=0,place=1;
