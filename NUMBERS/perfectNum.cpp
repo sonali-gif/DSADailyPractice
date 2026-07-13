@@ -8,6 +8,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(n)
     int n;
     cin>>n;
     

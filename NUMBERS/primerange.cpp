@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //this work if range is small like 10^5
+//time comp-O((R-L+1) * √R) ,space -O(1)
 bool isprime(int n){
     if(n<2) return false;
     for(int i=2;i*i<=n;i++){
@@ -21,6 +22,7 @@ int main(){
     // }
 
     // sieve approach for large range 
+    //time-O(N log(log n)),space -O(N)
     vector<bool> isprime(k+1,true);
     isprime[0]=false;
     isprime[1]=false;

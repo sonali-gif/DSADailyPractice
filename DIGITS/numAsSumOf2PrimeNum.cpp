@@ -13,6 +13,7 @@ bool isprime(int n){
     return true;
 }
 int main(){
+    //time comp-O(n√n)
     int n;
     cin>>n;
     for(int i=2;i<n/2;i++){

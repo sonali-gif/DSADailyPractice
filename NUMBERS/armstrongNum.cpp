@@ -6,7 +6,7 @@ int main(){
     cin>>n;
     int original=n;//store original num 
     //count digit in num
-    int cnt=1;
+    int cnt=0;
     int temp=n;
     while(temp>0){
         cnt++;
