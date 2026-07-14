@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(N)
     int n;
     cin>>n;
     int a=0,b=1;
@@ -10,7 +11,6 @@ int main(){
         int nxt=a+b;
         a=b;
         b=nxt;
-        
     }
     return 0;
 }
