@@ -6,6 +6,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(log(min(a,b)))
     int a,b;
     cin>>a>>b;
     while(b>0){
