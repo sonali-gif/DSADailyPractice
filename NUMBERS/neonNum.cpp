@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(log₁₀(N²))
     int n;
     cin>>n;
     int sq=n*n;

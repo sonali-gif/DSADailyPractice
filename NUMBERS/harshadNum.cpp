@@ -2,15 +2,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(log₁₀N)
     int n;
     cin>>n;
     int original=n;
     int sum=0;
+    //find digit of number n adding
     while (n>0){
         int digit=n%10;
         sum += digit;
         n=n/10;
     }
+    //checking harshad number
     if(original %sum==0){
         cout<<"Harshad number";
     }else{
