@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
+| [2235-add-two-integers](https://github.com/sonali-gif/DSADailyPractice/tree/master/2235-add-two-integers) |
 ## String
 |  |
 | ------- |
