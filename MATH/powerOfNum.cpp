@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time comp-O(b)
     int a,b;
     cin>>a>>b;
     int result=1;
