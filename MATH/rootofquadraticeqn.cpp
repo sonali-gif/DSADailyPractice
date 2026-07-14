@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    //time ,space comp-O(1)
     double a,b,c;
     cin>>a>>b>>c;
     double d =b*b -4*a*c;
