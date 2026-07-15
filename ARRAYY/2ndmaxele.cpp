@@ -3,6 +3,7 @@
 using namespace std;
 int secmax(int arr[],int n){
     //time comp-O(n),space-O(1)
+    
     int maxi=INT_MIN;
     int secMax=INT_MIN;
     for(int i=0;i<n;i++){
