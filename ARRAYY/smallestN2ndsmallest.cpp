@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int small(int arr[] ,int n){
+    //time comp-O(N) space-O(1)
     int Fsmall=INT_MAX;
     int Ssmall=INT_MAX;
     for(int i=0;i<n;i++){
