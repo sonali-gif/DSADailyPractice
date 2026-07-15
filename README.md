@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sonali-gif/DSADailyPractice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
+| [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Math
 |  |
 | ------- |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
+| [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Binary Search
 |  |
 | ------- |
@@ -39,4 +41,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
+## Counting
+|  |
+| ------- |
+| [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
 <!---LeetCode Topics End-->
