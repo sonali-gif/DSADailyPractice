@@ -19,6 +19,17 @@ vector<int> movezero(vector<int>v ,int n){
     }
     return ans;
 }
+void movezeroo(vector<int>& v ,int n){
+    //optimal approach uses 2 pointer 
+    //time comp-O(n) space comp_O(1)
+    int j=0;
+    for(int i=0;i<n;i++){
+        if(v[i]!=0){
+            swap(v[i],v[j]);
+            j++;
+        }
+    }
+}
 int main(){
     int n;
     cin>>n;
@@ -30,5 +41,10 @@ int main(){
     for(auto it:ans){
         cout<<it<<" ";
     }
+    //for optimal approach
+    // movezeroo(v,n);
+    // for(int i=0;i<n;i++){
+    //     cout<<v[i]<<" ";
+    // }
     return 0;
 }
