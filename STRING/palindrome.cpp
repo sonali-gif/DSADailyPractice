@@ -1,21 +1,33 @@
-//Check if a string is a palindrome 
+// Check if a string is a palindrome (all edge cases)
 #include<bits/stdc++.h>
 using namespace std;
+
 bool isPalindrome(string s){
-    //time comp-O(N), space -O(1)
-    int i=0,j=s.length()-1;
-    while(i<=j){
-        if(s[i]!=s[j]){
-        return false;
+    // Time Compl: O(n) space -O(1)
+    int i = 0;
+    int j = s.length() - 1;
+    while(i <= j){
+        // Skip non-alphanumeric characters from left
+        while(i < j && !isalnum(s[i])){
+            i++;
+        }
+        // Skip non-alphanumeric characters from right
+        while(i < j && !isalnum(s[j])){
+            j--;
+        }
+        // Convert to lowercase and compare
+        if(tolower(s[i]) != tolower(s[j])){
+            return false;
         }
         i++;
         j--;
     }
     return true;
 }
+
 int main(){
     string s;
-    cin>>s;
-    cout<<isPalindrome(s);
+    getline(cin, s);   // takes input with spaces
+    cout << isPalindrome(s);
     return 0;
 }
