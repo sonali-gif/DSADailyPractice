@@ -52,7 +52,26 @@ class node{
         postorder(root->right);
         cout<<root->data<<" ";
     }
+    //level order traversal
+    void levelOrder(node* root) {
+    if (root == NULL)
+        return;
 
+    queue<node*> q;
+    q.push(root);
+    while (!q.empty()) {
+        node* curr = q.front();
+        q.pop();
+
+        cout << curr->data << " ";
+
+        if (curr->left != NULL)
+            q.push(curr->left);
+
+        if (curr->right != NULL)
+            q.push(curr->right);
+    }
+}
 int main(){
     vector<int>arr={1,2,-1,-1,3,4,-1,-1,5,-1,-1  };
     node* root=buildtree(arr);
@@ -67,6 +86,9 @@ int main(){
     cout<<endl;
 
     postorder(root);
+    cout<<endl;
+
+    levelOrder(root);
     cout<<endl;
     return 0;
 }
