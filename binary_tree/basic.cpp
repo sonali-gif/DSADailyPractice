@@ -43,7 +43,15 @@ class node{
         cout<<root->data<<" ";
         inorder(root->right);
     }
-   
+   //postorder traversal
+   void postorder(node* root){
+        if(root==NULL){
+            return ;
+        }
+        postorder(root->left);
+        postorder(root->right);
+        cout<<root->data<<" ";
+    }
 
 int main(){
     vector<int>arr={1,2,-1,-1,3,4,-1,-1,5,-1,-1  };
@@ -56,6 +64,9 @@ int main(){
     cout<<endl;
 
     inorder(root);
+    cout<<endl;
+
+    postorder(root);
     cout<<endl;
     return 0;
 }
