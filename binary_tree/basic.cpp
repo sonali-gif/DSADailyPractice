@@ -34,6 +34,15 @@ class node{
         preorder(root->left);
         preorder(root->right);
     }
+    //inorder traversal
+    void inorder(node* root){
+        if(root==NULL){
+            return ;
+        }
+        inorder(root->left);
+        cout<<root->data<<" ";
+        inorder(root->right);
+    }
    
 
 int main(){
@@ -43,8 +52,10 @@ int main(){
     cout<<root->left->data<<endl;
     cout<<root->right->data<<endl;
 
-
     preorder(root);
+    cout<<endl;
+
+    inorder(root);
     cout<<endl;
     return 0;
 }
