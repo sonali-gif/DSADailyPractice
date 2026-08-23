@@ -33,7 +33,7 @@ class list{
     void reverse(){
         node* prev=NULL;
         node* curr=head;
-         tail=head;
+         
          //time comp-O(n)
          while(curr!=NULL){
             node* next=curr->next;
