@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/sonali-gif/DSADailyPractice/tree/master/0283-move-zeroes) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
+| [1470-shuffle-the-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/1470-shuffle-the-array) |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/sonali-gif/DSADailyPractice/tree/master/1619-mean-of-array-after-removing-some-elements) |
 | [1920-build-array-from-permutation](https://github.com/sonali-gif/DSADailyPractice/tree/master/1920-build-array-from-permutation) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
