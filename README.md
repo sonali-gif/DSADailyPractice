@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/sonali-gif/DSADailyPractice/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/sonali-gif/DSADailyPractice/tree/master/0414-third-maximum-number) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/sonali-gif/DSADailyPractice/tree/master/0283-move-zeroes) |
 ## Counting
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0088-merge-sorted-array) |
 | [0414-third-maximum-number](https://github.com/sonali-gif/DSADailyPractice/tree/master/0414-third-maximum-number) |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/sonali-gif/DSADailyPractice/tree/master/1619-mean-of-array-after-removing-some-elements) |
 ## Linked List
