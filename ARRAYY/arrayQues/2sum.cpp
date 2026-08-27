@@ -22,6 +22,7 @@ void TwoSum(int target,int n,int arr[]){
 }
 
 void TwoSumUnsorted(int target,int n,int arr[]){
+    //using hashing for unsorted array-O(n)
     unordered_map<int,int>mp;
     for(int i=0;i<n;i++){
         int need= target-arr[i];

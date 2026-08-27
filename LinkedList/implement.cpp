@@ -30,7 +30,7 @@ class list{
             head=newNode;
         }
     }
-
+//printing linkedlist
     void printLL(){
         node * temp=head;
         while(temp !=NULL){
