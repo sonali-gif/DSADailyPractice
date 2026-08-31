@@ -7,6 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    //time,space -O(N)
     unordered_map<int,int>mp;
     int target;
     cin>>target;
@@ -17,7 +18,6 @@ int main(){
             cout << mp[need] << " " << i;
             return 0;
         }
-
         mp[arr[i]] = i;
     }
 }
