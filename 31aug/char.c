@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    char ch=65;
-    printf("%d  ",ch);
-    printf("%c",ch);
+   unsigned char ch=-128;
+    printf("%d\n",ch );//65
+    printf("%c",ch);//A
     return 0;
 }
