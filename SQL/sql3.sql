@@ -1,3 +1,4 @@
+#CONSTRAINTS
 use college;
 drop table temp;
 create table temp(
@@ -18,4 +19,12 @@ create table tem2(
 name varchar(78),
 c_id int,
 foreign key (c_id) references temp(id)
-)
+);
+use college;
+create table vote(
+id int primary key,
+name varchar(60),
+age int check (age>=18)
+);
+insert into vote values(1,"kim",12);#this will show error because age is below 18
+insert into vote values(1,"kim",18);

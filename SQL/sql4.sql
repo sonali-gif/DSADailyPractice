@@ -89,3 +89,9 @@ from student;
 select city , count(marks)
 from student
 group by city;
+
+-- having clause
+select city , count(roll)
+from student
+group by city
+having max(marks<90);

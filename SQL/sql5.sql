@@ -1,7 +1,7 @@
 use college;
 drop table department;
 CREATE TABLE Department (
-    dept_id INT PRIMARY KEY,
+    id INT PRIMARY KEY,
     dept_name VARCHAR(50) UNIQUE NOT NULL
 );
 
@@ -15,7 +15,7 @@ CREATE TABLE Student1 (
     dept_id INT,
     
     CONSTRAINT fk_dept
-    FOREIGN KEY (dept_id) REFERENCES Department(dept_id) 
+    FOREIGN KEY (dept_id) REFERENCES Department(id) 
 );
 
 -- Insert Data
