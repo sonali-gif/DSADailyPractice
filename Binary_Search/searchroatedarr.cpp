@@ -6,10 +6,15 @@ int search(vector<int> arr,int n,int x){
     while(low<=high){
         int mid=low+(high-low)/2;
         if(arr[mid]==x){
-            return mid;
+            return true;
+        }
+        //cannot determine which side is sorted
+        if(arr[low]==arr[mid]&&arr[mid]==arr[high]){
+            low++;
+            high--;
         }
         //left half sorted
-         if(arr[low]<=arr[mid]){
+        else if(arr[low]<=arr[mid]){
             if(arr[low]<=x&& x<arr[mid]){
                 high=mid-1;
             }else{
@@ -24,7 +29,7 @@ int search(vector<int> arr,int n,int x){
             }
         }
     }
-    return -1;
+    return false;
 }
 int main(){
     int n;
