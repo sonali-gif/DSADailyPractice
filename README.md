@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
+| [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [2235-add-two-integers](https://github.com/sonali-gif/DSADailyPractice/tree/master/2235-add-two-integers) |
 ## String
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sonali-gif/DSADailyPractice/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
@@ -86,4 +88,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1920-build-array-from-permutation](https://github.com/sonali-gif/DSADailyPractice/tree/master/1920-build-array-from-permutation) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
