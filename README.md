@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sonali-gif/DSADailyPractice/tree/master/0035-search-insert-position) |
 | [0088-merge-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0088-merge-sorted-array) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/sonali-gif/DSADailyPractice/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/sonali-gif/DSADailyPractice/tree/master/0414-third-maximum-number) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/sonali-gif/DSADailyPractice/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
