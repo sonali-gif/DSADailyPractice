@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0138-copy-list-with-random-pointer) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Math
 |  |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/sonali-gif/DSADailyPractice/tree/master/0020-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/sonali-gif/DSADailyPractice/tree/master/0058-length-of-last-word) |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
 ## Sliding Window
 |  |
 | ------- |
@@ -69,12 +71,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
 | [3005-count-elements-with-maximum-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/3005-count-elements-with-maximum-frequency) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0088-merge-sorted-array) |
 | [0414-third-maximum-number](https://github.com/sonali-gif/DSADailyPractice/tree/master/0414-third-maximum-number) |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/sonali-gif/DSADailyPractice/tree/master/1619-mean-of-array-after-removing-some-elements) |
 ## Linked List
 |  |
@@ -96,4 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/sonali-gif/DSADailyPractice/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
