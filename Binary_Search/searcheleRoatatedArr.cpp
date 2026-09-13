@@ -9,7 +9,7 @@ int search(vector<int> arr,int n,int x){
             return mid;
         }
         //left half sorted
-         if(arr[low]<=arr[mid]){
+        if(arr[low]<=arr[mid]){
             if(arr[low]<=x&& x<arr[mid]){
                 high=mid-1;
             }else{
