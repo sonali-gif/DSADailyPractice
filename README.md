@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/sonali-gif/DSADailyPractice/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/sonali-gif/DSADailyPractice/tree/master/0414-third-maximum-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0540-single-element-in-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
 | [1470-shuffle-the-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/1470-shuffle-the-array) |
 | [1619-mean-of-array-after-removing-some-elements](https://github.com/sonali-gif/DSADailyPractice/tree/master/1619-mean-of-array-after-removing-some-elements) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/sonali-gif/DSADailyPractice/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0540-single-element-in-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/sonali-gif/DSADailyPractice/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
