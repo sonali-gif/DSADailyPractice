@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/sonali-gif/DSADailyPractice/tree/master/0013-roman-to-integer) |
 | [0069-sqrtx](https://github.com/sonali-gif/DSADailyPractice/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/sonali-gif/DSADailyPractice/tree/master/0189-rotate-array) |
+| [0258-add-digits](https://github.com/sonali-gif/DSADailyPractice/tree/master/0258-add-digits) |
 | [2235-add-two-integers](https://github.com/sonali-gif/DSADailyPractice/tree/master/2235-add-two-integers) |
 ## String
 |  |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/sonali-gif/DSADailyPractice/tree/master/0258-add-digits) |
 | [1920-build-array-from-permutation](https://github.com/sonali-gif/DSADailyPractice/tree/master/1920-build-array-from-permutation) |
 ## Newton's Method
 |  |
@@ -120,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/sonali-gif/DSADailyPractice/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/sonali-gif/DSADailyPractice/tree/master/0232-implement-queue-using-stacks) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/sonali-gif/DSADailyPractice/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
