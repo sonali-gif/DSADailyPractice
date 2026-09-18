@@ -126,4 +126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/sonali-gif/DSADailyPractice/tree/master/0258-add-digits) |
+## Database
+|  |
+| ------- |
+| [1068-product-sales-analysis-i](https://github.com/sonali-gif/DSADailyPractice/tree/master/1068-product-sales-analysis-i) |
 <!---LeetCode Topics End-->
