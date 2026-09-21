@@ -54,4 +54,6 @@ int main(){
 
    cout<<"\nPostorder ";
    PostOrder(root);
+
+return 0;
 }
